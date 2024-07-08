@@ -1,0 +1,128 @@
+body{
+	background: #FBEC5D;
+}
+.card-group{
+	margin-top: 10px;
+	background: #16161D;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+	padding: 20px;
+	}
+.card{
+	height: 300px;
+}
+.body{
+	grid-template-columns: repeat(2, 1fr);
+	display: grid;
+	gap: 10px;
+	padding: 20px;
+}
+#open-lateral{
+	height: auto;
+	width: 5rem;
+}
+h2{
+	margin: 10px;
+	text-align: center;
+}
+#perfil-usuario{
+	box-shadow: 1px 1px 8px 1px;
+	border-radius: 10px;
+}
+a{
+	text-decoration: none;
+	color: gold;
+}
+a:hover{
+	color: white;
+}
+table{
+	margin: 20px;
+}
+th{
+	width: 50%;
+}
+td{
+	width: 50%;
+	max-width: 10%;
+  	overflow: hidden;
+  	text-overflow: clip ellipsis;
+  	white-space: nowrap;
+}
+a.menu{
+	color: white;
+	border-bottom: 1px solid gold;
+	margin-bottom: 5px;
+	text-align: left;
+}
+.bg-warning{
+	color: black;
+}
+.bg-dark{
+	color: gold;
+}
+.btn-warning{
+	color: black;
+}
+.btn-warning:hover{
+	color: #FBEC5D;
+}
+div.footer-login{
+	text-align: center;
+}
+div.container{
+	display: flex;
+  	justify-content: center;
+  	align-items: center
+}
+.box{
+	padding: 20px;
+	border: 1px solid silver;
+	box-shadow: 1px 1px 6px 0;
+	border-radius: 10px;
+	position: absolute;
+	top: 40%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.input{
+	margin: 10px;
+}
+div.header-login{
+	padding: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid silver;
+}
+input{
+	margin-bottom: 10px;
+}
+#pesquisar{
+	margin: 0;
+}
+#icone-lupa{
+	border: none;
+}
+#icone-lupa:hover{
+	border: none;
+}
+.box-update{
+	padding: 20px;
+	border: 1px solid silver;
+	box-shadow: 2px 2px 10px 0;
+	border-radius: 10px;
+	position: absolute;
+	top: 55%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+#cadastro-box{
+	padding: 20px;
+	border: 1px solid silver;
+	box-shadow: 2px 2px 10px 0;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
