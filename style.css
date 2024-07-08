@@ -1,0 +1,15 @@
+/* CSS INDEX > CAROUSSEL */
+
+.container{
+    max-width: 800px;          
+    width: 100%;            
+    height: auto;  
+    background-size: contain;
+
+}
+img{
+    max-width: 800px;   /* Máximo da largura da imagem */          
+    width: 100%;
+    max-height: 400px;  /* Máximo da altura da imagem */          
+    min-height: auto; 
+}
